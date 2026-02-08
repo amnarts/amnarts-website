@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>amnarts | Handmade Paintings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- STARTER PAGE -->
+<header>
+    <a href="#gallery" class="scroll-btn">↓ Scroll to Gallery</a>
+</header>
+
+<!-- CUSTOM BUTTON BEFORE GALLERY -->
+<div class="custom-btn-container">
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="custom-btn">
+        Get Your Customised Paintings
+    </a>
+</div>
+
+<!-- GALLERY SECTION -->
+<section class="gallery" id="gallery">
+
+<!-- ART ITEMS art1 → art13 -->
+<div class="art-card">
+    <img src="images/art1.jpg" alt="Islamic Calligraphy">
+    <h3>Islamic Calligraphy</h3>
+    <p class="price">Rs. 3,999</p>
+    <p>Elegant acrylic calligraphy on canvas</p>
+    <button class="order-btn" onclick="addToCart('Islamic Calligraphy', 3999)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art2.jpg" alt="Abstract Floral">
+    <h3>Abstract Floral</h3>
+    <p class="price">Rs. 2,999</p>
+    <p>Handmade floral art with vibrant colors</p>
+    <button class="order-btn" onclick="addToCart('Abstract Floral', 2999)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art3.jpg" alt="Modern Landscape">
+    <h3>Modern Landscape</h3>
+    <p class="price">Rs. 3,499</p>
+    <p>Beautiful scenery in modern abstract style</p>
+    <button class="order-btn" onclick="addToCart('Modern Landscape', 3499)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art4.jpg" alt="Geometric Art">
+    <h3>Geometric Art</h3>
+    <p class="price">Rs. 2,899</p>
+    <p>Unique geometric patterns with bold colors</p>
+    <button class="order-btn" onclick="addToCart('Geometric Art', 2899)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art5.jpg" alt="Abstract Portrait">
+    <h3>Abstract Portrait</h3>
+    <p class="price">Rs. 3,199</p>
+    <p>Expressive abstract portrait in acrylics</p>
+    <button class="order-btn" onclick="addToCart('Abstract Portrait', 3199)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art6.jpg" alt="Floral Impression">
+    <h3>Floral Impression</h3>
+    <p class="price">Rs. 2,799</p>
+    <p>Soft and vibrant floral impressions</p>
+    <button class="order-btn" onclick="addToCart('Floral Impression', 2799)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art7.jpg" alt="Nature Abstract">
+    <h3>Nature Abstract</h3>
+    <p class="price">Rs. 3,099</p>
+    <p>Abstract interpretation of natural scenery</p>
+    <button class="order-btn" onclick="addToCart('Nature Abstract', 3099)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art8.jpg" alt="Color Splash">
+    <h3>Color Splash</h3>
+    <p class="price">Rs. 2,899</p>
+    <p>Dynamic splashes of colors in abstract style</p>
+    <button class="order-btn" onclick="addToCart('Color Splash', 2899)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art9.jpg" alt="Vintage Landscape">
+    <h3>Vintage Landscape</h3>
+    <p class="price">Rs. 3,199</p>
+    <p>Old-style landscape with soft tones</p>
+    <button class="order-btn" onclick="addToCart('Vintage Landscape', 3199)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art10.jpg" alt="Minimal Abstract">
+    <h3>Minimal Abstract</h3>
+    <p class="price">Rs. 2,699</p>
+    <p>Simple yet expressive abstract art</p>
+    <button class="order-btn" onclick="addToCart('Minimal Abstract', 2699)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art11.jpg" alt="Ocean Waves">
+    <h3>Ocean Waves</h3>
+    <p class="price">Rs. 3,299</p>
+    <p>Dynamic waves in a beautiful seascape</p>
+    <button class="order-btn" onclick="addToCart('Ocean Waves', 3299)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art12.jpg" alt="Sunset Abstract">
+    <h3>Sunset Abstract</h3>
+    <p class="price">Rs. 3,099</p>
+    <p>Warm tones capturing a sunset in abstract form</p>
+    <button class="order-btn" onclick="addToCart('Sunset Abstract', 3099)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+<div class="art-card">
+    <img src="images/art13.jpg" alt="Cityscape">
+    <h3>Cityscape</h3>
+    <p class="price">Rs. 3,499</p>
+    <p>Vibrant city skyline in abstract style</p>
+    <button class="order-btn" onclick="addToCart('Cityscape', 3499)">Add to Cart</button>
+    <a href="https://www.instagram.com/_amnarts/" target="_blank" class="order-btn">Customize Painting</a>
+</div>
+
+</section>
+
+<footer>
+    <p>© 2026 amnarts | Handmade with love</p>
+</footer>
+
+<!-- MODAL FOR IMAGE VIEW -->
+<div id="imageModal" class="modal">
+  <span class="close-modal">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+
+<script>
+// Smooth scroll
+document.querySelector('.scroll-btn').addEventListener('click', function(e){
+    e.preventDefault();
+    const target = document.querySelector('#gallery');
+    window.scrollTo({ top: target.offsetTop, behavior: 'smooth' });
+});
+
+// CART FUNCTIONALITY
+let cart = [];
+function addToCart(name, price){
+    cart.push({name, price});
+    alert(`${name} added to cart!`);
+}
+
+// MODAL IMAGE VIEW
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImg");
+const closeModal = document.getElementsByClassName("close-modal")[0];
+
+document.querySelectorAll(".art-card img").forEach(img => {
+    img.addEventListener("click", function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    });
+});
+
+closeModal.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event){
+    if(event.target == modal){
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
